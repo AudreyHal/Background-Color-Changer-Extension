@@ -1,5 +1,18 @@
 {
     "manifest_version": 3,
     "version": "1.0.0",
-    "name": "My Vite extension"
+    "name": "My Vite extension",
+    "action":{
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "scripting"
+    ],
+    "icons" : {
+        "32" : "icon-32.png"
+      },
+      "host_permissions":[
+          "http://*/*",
+          "https://*/*"
+      ]
 }
